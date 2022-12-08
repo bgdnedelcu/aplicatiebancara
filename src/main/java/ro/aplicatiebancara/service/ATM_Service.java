@@ -6,7 +6,6 @@ import ro.aplicatiebancara.repo.CarduriRepo;
 import ro.aplicatiebancara.repo.ConturiRepo;
 import ro.aplicatiebancara.view.CarduriView;
 import ro.aplicatiebancara.view.ConturiView;
-import ro.aplicatiebancara.view.Transfer;
 
 @Service
 public class ATM_Service {
