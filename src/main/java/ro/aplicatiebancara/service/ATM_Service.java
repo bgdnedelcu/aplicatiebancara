@@ -87,13 +87,5 @@ public class ATM_Service {
         return ResponseEntity.ok("Suma a fost retrasa din cont");
     }
 
-    public ResponseEntity transfer(int sumaTransfer){
-        CarduriView carduriView = null;
-        ConturiView conturiView = null;
-        for(CarduriView card : carduriRepo.getListaCarduri()){
-
-        }
-
-    }
 
 }
