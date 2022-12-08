@@ -6,7 +6,6 @@ import ro.aplicatiebancara.repo.CarduriRepo;
 import ro.aplicatiebancara.repo.ConturiRepo;
 import ro.aplicatiebancara.view.CarduriView;
 import ro.aplicatiebancara.view.ConturiView;
-import ro.aplicatiebancara.view.Transfer;
 
 @Service
 public class ATM_Service {
@@ -87,13 +86,5 @@ public class ATM_Service {
         return ResponseEntity.ok("Suma a fost retrasa din cont");
     }
 
-    public ResponseEntity transfer(int sumaTransfer){
-        CarduriView carduriView = null;
-        ConturiView conturiView = null;
-        for(CarduriView card : carduriRepo.getListaCarduri()){
-
-        }
-
-    }
 
 }
